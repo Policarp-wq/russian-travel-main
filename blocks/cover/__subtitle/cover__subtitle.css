@@ -1,5 +1,5 @@
 .cover__subtitle {
-
+  z-index: 2;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10,4 +10,3 @@
 }
 @media screen and (max-width: 320px) {
 }
-        
