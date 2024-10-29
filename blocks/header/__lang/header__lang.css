@@ -2,4 +2,17 @@
   text-decoration: none;
   color: #fff;
   font-size: 24px;
+  marker: none;
+}
+
+@media screen and (min-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 320px) {
+  .header__lang {
+    font-size: 18px;
+  }
 }
