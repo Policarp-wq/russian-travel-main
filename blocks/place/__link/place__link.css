@@ -1,5 +1,15 @@
 .place__link {
-
+  grid-area: url;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+  line-height: 22px;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+.place__link:hover {
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10,4 +20,3 @@
 }
 @media screen and (max-width: 320px) {
 }
-        

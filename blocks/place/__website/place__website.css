@@ -1,5 +1,8 @@
 .place__website {
-
+  grid-area: url;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10,4 +13,3 @@
 }
 @media screen and (max-width: 320px) {
 }
-        

@@ -1,5 +1,10 @@
 .cover__title {
-  z-index: 2;
+  font-family: "Inter-Black";
+  font-size: 72px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  width: min-content;
 }
 
 @media screen and (min-width: 1280px) {
@@ -7,6 +12,9 @@
 @media screen and (max-width: 1024px) {
 }
 @media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 32px;
+  }
 }
 @media screen and (max-width: 320px) {
 }
