@@ -2,7 +2,7 @@
   background-image: url(../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  max-width: 1184px;
   height: 57.8vw;
   margin: 0 auto;
   display: flex;
@@ -15,21 +15,14 @@
 
 @media (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
     height: 62.5vw;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover {
-    max-width: 768px;
-    height: 62.5vw;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
-    max-width: 320px;
     max-height: 200px;
     margin-top: 66px;
   }
